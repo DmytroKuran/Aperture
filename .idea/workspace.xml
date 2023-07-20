@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0807b836-ec59-49b9-b7c5-06d7c6ceba30" name="Changes" comment="Homework 6(2)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="0807b836-ec59-49b9-b7c5-06d7c6ceba30" name="Changes" comment="Homework 6(2)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="HomeWork6" />
+        <entry key="$PROJECT_DIR$" value="HomeWork6(2)" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -53,8 +51,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\aperture\css" />
       <recent name="C:\aperture" />
+      <recent name="C:\aperture\css" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -74,7 +72,7 @@
       <workItem from="1689513208194" duration="1511000" />
       <workItem from="1689514743694" duration="16452000" />
       <workItem from="1689703943092" duration="328000" />
-      <workItem from="1689864751078" duration="5283000" />
+      <workItem from="1689864751078" duration="5897000" />
     </task>
     <task id="LOCAL-00001" summary="Homework 6">
       <created>1689515154559</created>
