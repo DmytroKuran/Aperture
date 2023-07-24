@@ -178,6 +178,135 @@ header nav ul li:last-of-type {
     font-size: 16px;
 }
 
+.bottom_icons {
+    display: flex;
+    list-style: none;
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+}
+.bottom_icons li {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #ffffff;
+    margin-left: 16px;
+}
+.bottom_icons li::before {
+    content: "";
+    display: inline-block;
+    background-image: url(../images/fotoicon1.svg);
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    position: relative;
+    bottom: -5px;
+}
+.bottom_icons li:nth-of-type(2)::before {
+    background-image: url(../images/fotoicon2.svg);
+}
+.bottom_icons li:nth-of-type(3)::before {
+    background-image: url(../images/fotoicon3.svg);
+    width: 32px;
+}
+.bottom_icons li:last-of-type::before {
+    background-image: url(../images/fotoicon4.svg);
+    width: 10px;
+}
+/* WHAT WE DO SECTION STYLES */
+.whatwedo {
+    padding: 120px 0 100px;
+    margin: auto;
+}
+.boxes4 h3 {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+.boxes4 h4 {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    text-align: center;
+    color: #c0c0c0;
+    margin-bottom: 40px;
+}
+.boxes4_wrapper {
+    width: 1168px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+}
+/* this block is under question */
+.product,
+.architecture,
+.drone,
+.wildlife {
+    max-width: 576px;
+    height: 600px;
+    position: relative;
+    margin-bottom: 16px;
+}
+.product div,
+.architecture div,
+.drone div,
+.wildlife div {
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+}
+.product h5,
+.architecture h5,
+.drone h5,
+.wildlife h5 {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.product p,
+.architecture p,
+.drone p,
+.wildlife p {
+    font-family: "poppinsregular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #c0c0c0;
+    margin-top: 30px;
+    margin-right: 45px;
+}
+.architecture p {
+    margin-right: 32px;
+}
+.drone p {
+    margin-right: 30px;
+}
+.wildlife p {
+    margin-right: 66px;
+}
+.product .rounded_button,
+.architecture .rounded_button,
+.drone .rounded_button,
+.wildlife .rounded_button {
+    margin-top: 20px;
+}
+
 .sunset {
     background-image: url("../images/sunset.jpg");
     background-size: cover;
@@ -209,6 +338,8 @@ header nav ul li:last-of-type {
     line-height: 20px;
     color: #C0C0C0;
 }
+
+
 .monstera {
     background-image: url("../images/monstera.jpg");
     position: relative;
